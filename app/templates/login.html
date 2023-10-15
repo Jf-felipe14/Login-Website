@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Document</title>
+    <link rel="shortcut icon" type="imagex/png" href="{{ url_for('static', filename='img/download.png') }}">
+</head>
+<body>
+    <!-- Cabeçalho da  aplicação  -->
+    <header class="cabecalho">
+        <div class="nocabecalho">
+            <H1 class="titulo">Tela de Login</H1>
+        </div>
+    </header>
+    <div class="principal">
+        <div class="login">
+            <form  method="post" class="login">
+                <label for="Usuário" class="lbl1">Usuário</label>
+                <input type="text" class="usuario" placeholder="Username" name="Username">
+                <label for="Usuário" class="lbl2">Senha</label>
+                <input type="password" class="usuario" placeholder="***********" name="password">
+                <input type="submit" value="Enviar" class="send">
+                <a href="http://127.0.0.1:5000/cadastro">Cadastra-se</a>
+            </form>    
+        </div>
+    </div>
+    
+</body>
+</html>

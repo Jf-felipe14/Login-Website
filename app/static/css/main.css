@@ -1,0 +1,115 @@
+/*-------- Scroll tanto em chrome quanto em firefox */
+body::-webkit-scrollbar{
+    width:2px;
+    height:2px
+}
+body::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(163, 71, 71);
+    border-radius: 13px;
+}
+body{
+    scrollbar-width: 2px;
+    scrollbar-color: rgb(163, 71, 71);
+    scrollbar-base-color: aliceblue;
+}
+/*-------- fim Scroll tanto em chome quanto em firefox */
+
+/*-------- cabeçalho */
+header.cabecalho{
+    width:100%;
+    position: relative;
+    
+}
+div.nocabecalho{
+    position:relative;
+    top: 50%;
+    text-align: center;
+}
+/*-------- fim cabeçalho */
+
+/*-------- corpo */
+div.principal{
+    width: 100vw;
+    height: 90svh; 
+    /* top: 30px; */
+    max-width:100%;
+    max-height:100%;
+    display: flex;
+    /* background-color: black; */
+    align-items:center;
+    justify-content: center;
+    position: relative;
+
+}
+div.login{
+    position: absolute;
+    background-color: rgb(73, 72, 72);
+    border-radius: 13px;
+    border-color: black;
+    color: black;
+    display:grid;
+    width:250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px black;
+    
+}
+form.login{
+    position: absolute;
+    background-color: rgb(73, 72, 72);
+    border-radius: 13px;
+    border-color: black;
+    color: black;
+    display:grid;
+    width:250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px black;
+
+}
+.lbl1{
+    margin-left:20px ;
+    font-family: Monospace;
+    color: white;
+    font-size: 30px;
+}
+.lbl2{
+    margin-left:35px ;
+    font-family: Monospace;
+    color: white;
+    font-size: 30px;
+}
+.labl{
+    /* background-color: red; */
+    border-radius: 8px;
+    font-family: Monospace;
+}
+
+a{
+    color: White;
+    margin-left: 45px;
+    margin-top:10px;
+    padding-top: 20px;
+}
+
+/* form.quartz{
+    position: absolute;
+    background-color: rgb(73, 72, 72);
+    border-radius: 13px;
+    border-color: black;
+    color: black;
+    display:grid;
+    width:250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px black;
+    padding-left: 30px;
+
+}
+-------- fim corpo */
