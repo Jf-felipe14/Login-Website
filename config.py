@@ -1,0 +1,4 @@
+DEBUG = True
+SQLALCHEMY_DATABASE_URI= "sqlite:///project.db"
+
+SECRET_KEY = 'UMA CHAVE BEM SEGURA!@#123'

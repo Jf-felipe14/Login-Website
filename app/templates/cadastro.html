@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Twiter</title>
+</head>
+<body>
+    <h1>Olá Mundo, Estou no render do Login</h1>
+    <form  method="post">
+        <label for="">Digite o seu Nome</label>
+        <input type="text" id='id_nome' class='class_nome' name='usuario'>
+        <label for="">Digite o seu E-mail</label>
+
+        <input type="email" id='id_email' class='class_email' name='email'>
+        <label for="">Digite a su Senha</label>
+
+        <input type="password" id='id_password' class='class_password' name='password'> 
+        <label for="">Digite o seu Usuário</label>
+
+        <input type="" id='id_nome' class='class_nome' name='nome'> 
+
+        <button type="submit">Enviar</button>
+        <a href="{{ url_for('index') }}"><button type="button">Tela Inicial</button></a>
+        <a href="{{ url_for('login') }}"><button type="button">Tela de Login</button></a>
+
+        <div><label for="">{{texto1}} </label></div>
+    </form>
+</body>
+</html>
